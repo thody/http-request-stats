@@ -2,10 +2,10 @@
 cURL your way to request timing stats - a helpful command to isolate request bottlenecks.
 
 ```zsh
-curl -w "@stats.txt" -o /dev/null -s http://www.google.com
+curl -w "@report_template.txt" -o /dev/null -s http://www.google.com
 ```
 
-- `-w "@stats.txt"` point to the report template
+- `-w "@report_template.txt"` point to the report template
 - `-o /dev/null` send the response output to `/dev/null`
 - `-s` use silent mode
 - `http://www.google.com` the URL to request
