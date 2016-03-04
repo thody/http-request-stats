@@ -29,7 +29,7 @@ time_total: 0.029
 Need more info? This command dumps all that cURL will report on.
 
 ```zsh
-curl -w "@timing_report_template.txt" -o /dev/null -s http://www.google.com
+curl -w "@full_report_template.txt" -o /dev/null -s http://www.google.com
 ```
 
 Output:
